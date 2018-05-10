@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/titlerl"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="@drawable/bg_sunny"
+        android:paddingEnd="@dimen/padding_right"
+        android:paddingStart="@dimen/padding_left" >
+
+        <TextView
+            android:id="@+id/title_temp_text"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingStart="@dimen/padding_left"
+            android:gravity="start|center_vertical"
+            android:textSize="@dimen/title_textsize" />
+
+        <TextView
+            android:id="@+id/title_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_temp_text"
+            android:textSize="@dimen/medium_text_size" />
+
+        <TextView
+            android:id="@+id/title_weather_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_location"
+            android:paddingStart="@dimen/padding_left"
+            android:textSize="@dimen/content_text_size" />
+        <TextView
+            android:id="@+id/title_date_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_weather_text"
+            android:paddingStart="@dimen/padding_left"
+            android:textSize="@dimen/content_text_size"/>
+
+        <View
+            android:id="@+id/vertical_divide"
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:background="@drawable/divide_drawable" />
+
+        <TextView 
+            android:id="@+id/title_wind_text"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:gravity="center_vertical"
+            android:layout_alignBottom="@+id/vertical_divide"
+            android:layout_toStartOf="@+id/vertical_divide"
+            android:layout_marginEnd="30dp"
+            />
+    </RelativeLayout>
+
+    <include 
+        android:id="@+id/item_day_weather_0"
+        layout="@layout/item_day_weather"
+        />
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/divide_height"
+        android:layout_marginStart="@dimen/margin_left"
+        android:layout_marginEnd="@dimen/margin_right"
+        android:background="@drawable/divide_drawable"/>
+    <include 
+        android:id="@+id/item_day_weather_1"
+        layout="@layout/item_day_weather"
+        />
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/divide_height"
+        android:layout_marginStart="@dimen/margin_left"
+        android:layout_marginEnd="@dimen/margin_right"
+        android:background="@drawable/divide_drawable"/>
+    <include 
+        android:id="@+id/item_day_weather_2"
+        layout="@layout/item_day_weather"
+        />
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/divide_height"
+        android:background="@drawable/divide_drawable"/>
+    <TextView
+        android:id="@+id/moreweather"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:text="@string/more_weather"
+        android:layout_height="@dimen/item_height"
+        android:textSize="@dimen/content_text_size"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_height"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="@string/instructions"/>
+    </LinearLayout>
+</ScrollView>

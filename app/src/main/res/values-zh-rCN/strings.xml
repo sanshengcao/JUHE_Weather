@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">聚合天气</string>
+    <string name="more_weather">7天天气预报</string>
+    <string name="no_network">网络连接失败</string>
+    <string name="no_network_button">点击 重试</string>
+    <string name="today">今天</string>
+    <string name="tomorrow">明天</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="service_error">服务错误,请稍后重试</string>
+    <string name="network_error">网络错误,请稍后重试</string>
+    <string name="instructions">由聚合天气友情支持</string>
+    <string name="settings">设置</string>
+    <string name="shared">分享</string>
+    <string name="city_manager">城市管理</string>
+    <string name="none_city_for_query">没有相关的城市，请输入正确的城市名或ID</string>
+    <string name="added">已添加</string>
+    <string name="start">启动</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="citylist_change_determine">确认舍弃更改吗?</string>
+    <string name="no_weather">无法获取天气</string>
+
+
+</resources>

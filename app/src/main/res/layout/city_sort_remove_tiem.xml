@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_height_8"
+    android:paddingLeft="@dimen/padding_left"
+    android:paddingRight="@dimen/padding_right">
+    
+    <ImageView
+        android:id="@+id/click_remove"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:src="@drawable/remove"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/text_margin"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/item_height_8"
+        android:layout_toEndOf="@+id/click_remove"
+        android:layout_marginStart="@dimen/view_small_width"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_city_sort_district"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:text="徐汇区"
+            android:textSize="@dimen/content_text_size" />
+
+        <TextView
+            android:id="@+id/item_city_sort_city"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="上海"
+            android:textSize="12sp"
+
+            />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/drag_handle"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:src="@drawable/remove"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/icon_size"/>
+
+</RelativeLayout>

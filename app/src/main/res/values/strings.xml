@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">JUHE_Weather</string>
+    <string name="more_weather">7-day weather forecast</string>
+    <string name="no_network">"Network Connection failed"</string>
+    <string name="no_network_button">Click to retry</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="month">mon</string>
+    <string name="day"> </string>
+    <string name="service_error">Service error,please try again later</string>
+    <string name="network_error">Network error,please try again later</string>
+    <string name="instructions">Supported by JuHe Weather</string>
+    <string name="settings">Settings</string>
+    <string name="shared">Shared</string>
+    <string name="city_manager">City Management</string>
+    <string name="show_temp" msgid="2900940511201380775">%1$s℃</string>
+    <string name="show_address" msgid="2900940511201380776">%1$4s%2$4s </string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_city_manager">CityManagerActivity</string>
+    <string name="show_city_item" msgid="2900940511201380788">%1$s   \—%2$6s\,%3$4s </string>
+    <string name="show_city_item1" msgid="2900940511201380798">%1$s   \—%2$6s </string>
+    <string name="added">Added</string>
+    <string name="start">Start</string>
+    <string name="none_city_for_query">No relevant city, please enter the correct city name or ID</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="citylist_change_determine">Confirm discard the change ?</string>
+    <string name="no_weather">Unable to get the Weather</string>
+    <string name="city_province" msgid="2900940511201380800">%1$2s  \,%2$4s </string>
+</resources>
